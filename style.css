@@ -156,10 +156,37 @@ header {
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .blue-container {
-    border:#3882F6;
-    border-color: transparent;
+    border:solid #3882F6;
     border-radius: 5px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    display: flex;
+    padding: 16px;
+    width: 700px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action {
+    max-width: 300px;
+}
+
+.blue-container button {
+    background-color: #3882F6;
+    border: solid #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: 210px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 40px;
 }
